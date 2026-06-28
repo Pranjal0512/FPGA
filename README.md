@@ -18,7 +18,7 @@ The objective of this assignment is to design and verify a parameterized **N × 
 ## Simulation Waveform
 
 <p align="center">
-  <img src="image.png" alt="N x 1 Multiplexer GTKWave Output" width="1000"/>
+  <img src="Screenshot 2026-06-29 015929.png" alt="N x 1 Multiplexer GTKWave Output" width="1000"/>
 </p>
 
 **Figure:** GTKWave simulation of the **32 × 1 Multiplexer**. The `sel` signal increments sequentially from `0` to `30`, and the output `d_out` changes accordingly by selecting the corresponding 8-bit input value from the combined `data_in` bus. This verifies that the multiplexer correctly routes the selected input to the output for each valid selection.
